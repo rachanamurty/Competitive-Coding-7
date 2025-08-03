@@ -1,3 +1,6 @@
+// TC: O(n logn)
+//SC: O(n) for Priority Queue
+
 class Solution {
     public int minMeetingRooms(int[][] intervals) {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
